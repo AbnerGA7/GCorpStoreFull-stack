@@ -1,14 +1,11 @@
-# 🛍️ FreeStore Fullstack E-commerce
+# 🛍️ GCorp Store — Fullstack E-commerce
 
-Bienvenido al repositorio oficial de **FreeStore**. Una plataforma de comercio electrónico moderna, rápida y escalable, construida con las últimas tecnologías web. Este proyecto integra un frontend dinámico con un gestor de contenidos (Headless CMS) para una administración total de productos.
+Bienvenido al repositorio oficial de **GCorp Store**. Una plataforma de comercio electrónico moderna, rápida y escalable, construida con las últimas tecnologías web. Este proyecto integra un frontend dinámico con un gestor de contenidos (Headless CMS) para una administración total de productos.
 
 ![Captura de la tienda ](Screenshot.jpg)
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-
-## 🚀 Demo en Vivo
-[Ver el sitio en vivo](https://frees-store-peru.netlify.app/)
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -137,7 +134,7 @@ Para que tu panel de administrador esté en internet:
 cd admin
 npm run deploy
  ```
-Te pedirá un nombre para tu estudio (ej: freestore-admin) y te dará una URL pública (ej: https://freestore-admin.sanity.studio).
+Te pedirá un nombre para tu estudio (ej: gcorp-store-admin) y te dará una URL pública (ej: https://gcorp-store-admin.sanity.studio).
 
 📱 Funcionalidades Principales
 ✅ Catálogo de Productos: Actualizable en tiempo real desde Sanity.

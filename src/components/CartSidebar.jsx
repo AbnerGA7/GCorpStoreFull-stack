@@ -30,7 +30,7 @@ const CartSidebar = () => {
   const handleCheckout = () => {
     const phoneNumber = "51999999999"; 
     
-    let message = `Hola *FREE'S* 👋, quiero realizar el siguiente pedido:\n\n`;
+    let message = `Hola *GCorp Store* 👋, quiero realizar el siguiente pedido:\n\n`;
 
     cart.forEach((item, index) => {
       message += `🛒 *PRODUCTO ${index + 1}*\n`;

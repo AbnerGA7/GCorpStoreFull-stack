@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16 gap-4">
-          <Link to="/" className="text-2xl font-bold tracking-wider text-white flex-shrink-0">FREE'S<span className="text-brand-primary">.</span></Link>
+          <Link to="/" className="text-2xl font-bold tracking-wider text-white flex-shrink-0">GCORP<span className="text-brand-primary">.</span></Link>
           <div className="hidden lg:flex space-x-6 flex-shrink-0">
             {navLinks.map((link) => (
               <Link key={link.name} to={link.path} className={`text-sm font-medium transition-colors ${location.pathname === link.path ? 'text-brand-primary' : 'text-gray-300 hover:text-white'}`}>{link.name}</Link>
@@ -67,7 +67,7 @@ const HomePage = () => (
     <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/60"></div>
     <div className="relative z-10 text-center px-4">
       <motion.div initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }}>
-        <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-2 text-white">ESTILO <span className="text-brand-primary">FREE'S</span></h1>
+        <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-2 text-white">ESTILO <span className="text-brand-primary">GCORP</span></h1>
         <p className="text-xl text-gray-300 font-semibold tracking-widest uppercase">Tecnología • Moda • Belleza</p>
       </motion.div>
     </div>
