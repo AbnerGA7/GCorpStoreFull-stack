@@ -66,7 +66,8 @@ const HomePage = () => (
     <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/60"></div>
     <div className="relative z-10 text-center px-4">
       <motion.div initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }}>
-        <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter text-white">GCORP <span className="text-brand-primary">STORE</span></h1>
+        <h1 className="text-6xl md:text-9xl font-extrabold tracking-tighter mb-2 text-white">GCORP <span className="text-brand-primary">STORE</span></h1>
+        <p className="text-xl text-gray-300 font-semibold tracking-widest uppercase">Tecnología • Moda</p>
       </motion.div>
     </div>
   </section>
