@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         brand: {
-          primary: '#d946ef',
+          primary: '#3b82f6',
           dark: '#1a1a1a',
           card: '#262626',
         }
